@@ -1,0 +1,843 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: lightgray;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.roll_on {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5in;
+}
+
+.roll {
+    height: 250px;
+    width: 290px;
+    border-radius: 50%;
+    border-top: 10px solid green;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid transparent;
+    border-right: 10px solid red;
+    animation: key 350ms linear infinite;
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+    display: none;
+    position: absolute;
+}
+
+@keyframes key {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.on_roll {
+    height: 240px;
+    width: 240px;
+    border-radius: 60%;
+    border-top: 16px solid transparent;
+    border-top: 10px solid gold;
+    border-bottom: 10px solid yellowgreen;
+    border-right: 10px solid orangered;
+    animation: book 350ms linear infinite;
+    position: absolute;
+    margin-top: 1.8%;
+    display: none;
+}
+
+@keyframes book {
+    to {
+        transform: rotate(-360deg)
+    }
+}
+
+.load {
+    color: gold;
+    transition: all 1s;
+    position: absolute;
+    margin-top: 8.3pc;
+    font-size: larger;
+    display: none;
+    font-weight: bold
+}
+
+.postal {
+    height: 100vh;
+}
+
+.postalimg {
+    width: 100%;
+    height: 99vh;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: -9;
+    filter: brightness(60%);
+    object-fit: cover;
+    object-position: center top;
+}
+
+.links {
+    padding-left: 49rem;
+    padding-top: 1rem;
+}
+
+.lin {
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 600ms ease-in-out;
+    padding-right: 20px;
+}
+
+.lin:hover {
+    color: orangered;
+}
+
+.li {
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 600ms ease-in-out;
+    padding-right: 20px;
+}
+
+.li:hover {
+    color: orangered;
+}
+
+.link {
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 600ms ease-in-out;
+    padding-right: 20px;
+}
+
+.link:hover {
+    color: orangered;
+}
+
+.l {
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 600ms ease-in-out;
+    padding-right: 20px;
+}
+
+.l:hover {
+    color: orangered;
+}
+
+.text-title {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    padding-top: 17rem;
+    text-transform: capitalize;
+    padding-left: 13rem;
+    word-spacing: 4px;
+}
+
+span {
+    color: orange;
+}
+
+.option1 {
+    display: flex;
+    gap: 16px;
+}
+
+.option1div {
+    width: 100%;
+}
+
+.sub-title {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    padding-left: 24rem;
+    padding-top: 1rem;
+    word-spacing: 3px;
+}
+
+.pat {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: -2rem;
+    padding-left: 15rem;
+    text-transform: capitalize;
+}
+
+.image {
+    padding-left: 18rem;
+    padding-top: 2rem;
+}
+
+.image :nth-child(2) {
+    padding-left: 9rem;
+}
+
+.option1 {
+    display: flex;
+    gap: 16px;
+}
+
+.option1div {
+    width: 100%;
+}
+
+.tanker {
+    margin: 5% auto;
+    width: 90%;
+}
+
+.option1 img {
+    width: 35rem;
+    height: 455px;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 4rem;
+}
+
+p {
+    padding-left: 1- rem;
+}
+
+i {
+    color: orange;
+}
+
+.product {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 32rem;
+}
+
+.cars {
+    display: flex;
+    padding-left: 1.5rem;
+    padding-top: 3rem;
+}
+
+.cam {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 7rem;
+    padding-top: 10px;
+}
+
+.hil {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 7rem;
+    padding-top: 10px;
+}
+
+.coro {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 7rem;
+    padding-top: 10px;
+}
+
+.rava {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 7rem;
+    padding-top: 10px;
+}
+
+.all {
+    background-color: brown;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 34rem;
+    margin-top: 3rem;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 600ms ease-in-out;
+}
+
+.all:hover {
+    background-color: orange;
+}
+
+.parado {
+    height: 100vh;
+}
+
+.paradoimg {
+    width: 100%;
+    height: 98vh;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: -9;
+    filter: brightness(80%);
+    object-fit: cover;
+    object-position: center top;
+}
+
+.linn {
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 600ms ease-in-out;
+    padding-left: 25rem;
+}
+
+.linn:hover {
+    color: orangered;
+}
+
+.toyota {
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 34rem;
+    text-transform: capitalize;
+}
+
+.toyo {
+    display: flex;
+    padding-left: 1.5rem;
+    padding-top: 3rem;
+}
+
+.su {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 3rem;
+    padding-top: 10px;
+}
+
+.suv img {
+    width: 18rem;
+}
+
+.rush img {
+    width: 18rem;
+}
+
+.rus {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 4rem;
+    padding-top: 10px;
+}
+
+.pra {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 4rem;
+    padding-top: 10px;
+}
+
+.prado img {
+    width: 16rem;
+}
+
+.lc {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 9rem;
+    padding-top: 10px;
+}
+
+.lc70 img {
+    width: 18rem;
+    padding-left: 3rem;
+}
+
+.now {
+    background-color: orange;
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: capitalize;
+    border: none;
+    margin-left: 34rem;
+    margin-top: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.now:hover {
+    color: white;
+    background-color: orangered;
+}
+
+.runner {
+    display: flex;
+}
+
+.run {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 5rem;
+    padding-top: -4rem;
+}
+
+.runnn img {
+    width: 21rem;
+}
+
+.high {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 5rem;
+    padding-top: 10px;
+}
+
+.highland img {
+    width: 17rem;
+}
+
+.mercede {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 5rem;
+    padding-top: 10px;
+}
+
+.mercedesben img {
+    width: 17rem;
+}
+
+.lexusrx {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 5rem;
+    padding-top: 10px;
+}
+
+.lexus img {
+    width: 17rem;
+}
+
+.section-5 {
+    width: 100%;
+    height: 250px;
+    background-color: #000;
+    background-image: url(./images/redo.png);
+    background-size: contain;
+    margin-top: 3rem;
+}
+
+.address {
+    width: 100%;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+.address-1 {
+    width: 50%;
+    color: white;
+    margin-left: 30px;
+}
+
+.address-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-2 i {
+    color: green;
+    font-size: larger;
+    margin-left: -17rem;
+    transition: all 600ms ease-in-out;
+}
+
+.service {
+    height: 100vh;
+}
+
+.serviceimg {
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: -2;
+    filter: brightness(60%);
+    object-fit: cover;
+    object-position: center top;
+}
+
+.text-tite {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    padding-top: 10rem;
+    text-transform: capitalize;
+    padding-left: 30rem;
+    word-spacing: 4px;
+}
+
+.sched {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+    padding-left: 30rem;
+    margin-top: -12rem;
+}
+
+hr {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.dear {
+    font-size: large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 70px;
+    padding-left: 7.5rem;
+}
+
+.would {
+    padding-left: 7.5rem;
+    padding-top: 2rem;
+}
+
+.period {
+    padding-left: 7.5rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+@media (max-width: 840px) {
+    .on_roll {
+        height: 240px;
+        width: 240px;
+        border-radius: 60%;
+        position: absolute;
+        margin-top: -1.5rem;
+        display: none;
+    }
+    
+    .roll {
+        height: 250px;
+        width: 290px;
+        justify-content: center;
+        padding-top: 37px;
+        display: none;
+        margin-top: -3rem;
+        position: absolute;
+    }
+
+    .field {
+        width: 20%;
+    }
+
+    .load {
+        margin-top: 25%;
+    }
+
+    .postalimg {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .links {
+        padding-left: 3rem;
+    }
+
+    .lin {
+        font-size: medium;
+    }
+
+    .li {
+        font-size: medium;
+    }
+
+    .link {
+        font-size: medium;
+    }
+
+    .text-title {
+        font-size: medium;
+        margin-left: -12rem;
+        margin-top: -4rem;
+        font-weight: bold;
+    }
+
+    .sub-title {
+        margin-left: -23rem;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .tanker {
+        margin: 5% auto;
+        width: 90%;
+    }
+
+    .pat {
+        font-size: large;
+        font-weight: bold;
+        margin-top: -6rem;
+        margin-left: -13rem;
+        text-transform: capitalize;
+    }
+
+    .image {
+        margin-left: -18rem;
+        padding-top: 2rem;
+    }
+
+    .image :nth-child(2) {
+        margin-left: -9rem;
+        width: 50%;
+    }
+
+    .option1 {
+        display: block;
+    }
+
+    .option1div {
+        width: 100%;
+    }
+
+    .tanker {
+        margin: 5% auto;
+        width: 95%;
+    }
+
+    .option1 img {
+        width: 100%;
+        height: 455px;
+    }
+
+    h3 {
+        font-size: x-large;
+        margin-left: 1rem;
+    }
+    .product {
+        margin-left: -28rem;
+        margin-top: 2rem;
+    }
+    .cars {
+        display: block;
+        padding-left: 1.5rem;
+        padding-top: 3rem;
+    }
+    .camry img {
+        width: 100%;
+        margin-top: -3rem;
+    }
+    .cam {
+        margin-left: 2rem;
+    }
+    .corolla img {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .coro {
+        margin-top: -10px;
+        margin-left: 2rem;
+    }
+    .hilux img {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .hil {
+        margin-left: 2rem;
+    }
+    .rava4 img {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .rava {
+        margin-left: 2rem;
+    }
+    .all {
+        margin-left: 6rem;
+    }
+    .section-5 {
+        width: 100%;
+        height: 400px;
+        background-color: #000;
+        background-image: url(./images/redo.png);
+        margin-top: 3rem;
+    }
+    
+    .address {
+        width: 90%;
+        padding-top: 40px;
+        font-size: large;
+        margin-left: -1rem;
+    }
+    
+    .address-1 {
+        width: 99%;
+        color: white;
+        margin-left: 30px;
+    }
+    
+    .address-2 i {
+        display: block;
+        font-size: 50px;
+        color: orangered;
+        margin-top: 1rem;
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 1rem;
+    }
+    .paradoimg {
+        width: 100%;
+        height: 98vh;
+    }
+    .toyota {
+        font-size: xx-large;
+        font-weight: bold;
+        padding-left: 6rem;
+        text-transform: capitalize;
+    }
+    .toyo {
+        display: block;
+    }
+    .runner {
+        display: block;
+    }
+    .suv img {
+        width: 100%;
+    }
+    .su {
+        margin-left: 3rem;
+    }
+    .rush img {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .rus {
+        margin-left: 3rem;
+    }
+    .prado img {
+        width: 100%;
+        padding-top: 2rem;
+        margin-left: -10px;
+    }
+    .pra {
+        margin-left: 3rem;
+    }
+    .lc70 img {
+        width: 100%;
+        padding-top: 2rem;
+        margin-left: -4rem;
+    }
+    .lc {
+        margin-left: -1rem;
+    }
+    .runnn img {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .run {
+        margin-left: 5rem;
+    }
+    .highland img {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .high {
+        margin-left: 4rem;
+    }
+    .mercedesben img {
+        width: 100%;
+        padding-top: -1rem;
+    }
+    .mercede {
+        margin-top: -2rem;
+        margin-left: 2rem;
+    }
+    .lexus img {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .lexusrx {
+        margin-left: 2rem;
+    }
+    .now {
+        margin-left: 6rem;
+    }
+    .serviceimg {
+        width: 100%;
+        height: 60vh;
+    }
+    .text-tite {
+      font-size: x-large;
+      padding-left: 3rem;
+    }
+    .sched {
+        font-size: x-large;
+        font-weight: bold;
+        color: black;
+        text-transform: capitalize;
+        margin-left: -27rem;
+        margin-top: -14rem;
+    }
+    .dear {
+        margin-top: -4rem;
+        margin-left: -4.5rem;
+    }
+    .would {
+        margin-left: -6rem;
+        margin-top: -1rem;
+    }
+    .period {
+        margin-left: -6rem;
+        margin-top: 1rem;
+    }
+}
